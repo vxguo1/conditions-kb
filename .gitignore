@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build / cache
+dist/
+*.tsbuildinfo
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---------------------------------------------------------------------------
+# PRIVATE PATIENT LAYER — never commit anyone's personal/health information.
+# Everything in patient/ is ignored EXCEPT the empty template that documents
+# the expected structure.
+# ---------------------------------------------------------------------------
+patient/*
+!patient/TEMPLATE.md

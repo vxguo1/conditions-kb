@@ -1,0 +1,25 @@
+{
+  "name": "conditions-kb",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A caring, well-sourced, multi-condition medical knowledge base — educational research synthesis across nine chronic conditions. Each disease lives in its own kb/<disease>/ folder; one shared toolchain and validator covers them all.",
+  "type": "module",
+  "scripts": {
+    "validate": "tsx scripts/validate.mts",
+    "build:sources": "tsx scripts/build-sources.mts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "knowledge-base",
+    "health",
+    "educational",
+    "diabetes",
+    "chronic-conditions"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
